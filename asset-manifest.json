@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Planet-Facts-React/static/js/main.d65f0021.js",
+    "main.js": "/Planet-Facts-React/static/js/main.3fc40eae.js",
     "index.html": "/Planet-Facts-React/index.html",
-    "main.d65f0021.js.map": "/Planet-Facts-React/static/js/main.d65f0021.js.map"
+    "main.3fc40eae.js.map": "/Planet-Facts-React/static/js/main.3fc40eae.js.map"
   },
   "entrypoints": [
-    "static/js/main.d65f0021.js"
+    "static/js/main.3fc40eae.js"
   ]
 }
