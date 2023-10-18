@@ -13,6 +13,11 @@ margin-top: 39px;
     justify-content: center;
   }
 
+  /* Tablets (Portrait-Modus) */
+@media (max-width: 500px) {
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 `;

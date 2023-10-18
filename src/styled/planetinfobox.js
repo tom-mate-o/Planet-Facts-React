@@ -75,4 +75,45 @@ margin-top: 50px;
 
   }
 
+  /* Smartphones (Portrait-Modus) */
+@media (max-width: 500px) {
+
+
+
+    grid-template-columns: 80%;
+    grid-template-rows: auto auto auto auto;
+
+    .PlanetImage {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .PlanetName {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        padding-right: 68px;
+    }
+    
+    .PlanetInfo {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        padding-right: 68px;
+    }
+    
+    .PlanetMenu {
+        grid-column: 2 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .Stats {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+        padding-bottom: 35px;
+    }
+
+  }
+
 `;

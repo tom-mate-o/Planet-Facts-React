@@ -2,7 +2,7 @@
   "name": "planetfactsreact",
   "version": "0.1.0",
   "description": "React Single Page Application - Frontend Mentor Challenge ",
-  "homepage": "https://github.com/tom-mate-o/Planet-Facts-React",
+  "homepage": "https://tom-mate-o.github.io/Planet-Facts-React/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

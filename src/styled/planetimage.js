@@ -46,5 +46,19 @@ img {
 
   }
 
+  /* Smartphones (Portrait-Modus) */
+@media (max-width: 500px) {
+    padding-bottom: 48px;
+    img{
+    width: 50vw;
+
+
+    &.Pin{
+    width: 150px;
+
+    }
+
+  }
+
 
 `;

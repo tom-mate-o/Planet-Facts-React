@@ -32,14 +32,14 @@ class Main extends Component {
           <Header>
           <div className="Title">THE PLANETS</div>
           <Navbar>
-          <li><Link to="/mercury">MERCURY</Link></li>
-          <li><Link to="/venus">VENUS</Link></li>
-            <li><Link to="/earth">EARTH</Link></li>
-            <li><Link to="/mars">MARS</Link></li>
-            <li><Link to="/jupiter">JUPITER</Link></li>
-            <li><Link to="/saturn">SATURN</Link></li>
-            <li><Link to="/uranus">URANUS</Link></li>
-            <li><Link to="/neptune">NEPTUNE</Link></li>
+          <li><Link to="/Planet-Facts-React/mercury">MERCURY</Link></li>
+          <li><Link to="/Planet-Facts-React/venus">VENUS</Link></li>
+            <li><Link to="/Planet-Facts-React/earth">EARTH</Link></li>
+            <li><Link to="/Planet-Facts-React/mars">MARS</Link></li>
+            <li><Link to="/Planet-Facts-React/jupiter">JUPITER</Link></li>
+            <li><Link to="/Planet-Facts-React/saturn">SATURN</Link></li>
+            <li><Link to="/Planet-Facts-React/uranus">URANUS</Link></li>
+            <li><Link to="/Planet-Facts-React/neptune">NEPTUNE</Link></li>
             </Navbar>
           </Header>
           
@@ -47,15 +47,15 @@ class Main extends Component {
 
           <Contentbox>
             <Routes>
-              <Route path="/" element={<Earth data={data} />} />
-              <Route path="/earth" element={<Earth data={data} />} />
-              <Route path="/jupiter" element={<Jupiter data={data} />} />
-                <Route path="/mars" element={<Mars data={data} />} />
-                <Route path="/mercury" element={<Mercury data={data} />} />
-                <Route path="/neptune" element={<Neptune data={data} />} />
-                <Route path="/saturn" element={<Saturn data={data} />} />
-                <Route path="/uranus" element={<Uranus data={data} />} />
-                <Route path="/venus" element={<Venus data={data} />} />
+              <Route path="/Planet-Facts-React/" element={<Earth data={data} />} />
+              <Route path="/Planet-Facts-React/earth" element={<Earth data={data} />} />
+              <Route path="/Planet-Facts-React/jupiter" element={<Jupiter data={data} />} />
+                <Route path="/Planet-Facts-React/mars" element={<Mars data={data} />} />
+                <Route path="/Planet-Facts-React/mercury" element={<Mercury data={data} />} />
+                <Route path="/Planet-Facts-React/neptune" element={<Neptune data={data} />} />
+                <Route path="/Planet-Facts-React/saturn" element={<Saturn data={data} />} />
+                <Route path="/Planet-Facts-React/uranus" element={<Uranus data={data} />} />
+                <Route path="/Planet-Facts-React/venus" element={<Venus data={data} />} />
             </Routes>
           </Contentbox>
         </div>

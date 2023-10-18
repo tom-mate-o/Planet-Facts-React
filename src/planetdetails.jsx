@@ -32,20 +32,20 @@ function PlanetDetails({data, activeId, handleButtonClick}) {
     const tabImage = {
       Overview: (
         <>
-          <img src={data.images.planet} alt={`Image of ${planetName}`} />
+          <img src={process.env.PUBLIC_URL + data.images.planet} alt={`Image of ${planetName}`} />
         </>
       ),
       InternalStructure: (
         <>
-          <img src={data.images.internal} alt={`Image of ${planetName}`} />
+          <img src={process.env.PUBLIC_URL + data.images.internal} alt={`Image of ${planetName}`} />
         </>
       ),
       SurfaceGeology: (
         <>
-        <div className="GeologyCollage">
-      <img className="Pin" src={data.images.geology} alt="Geology" />
-      <img className="Planet" src={data.images.planet} alt={`Image of ${planetName}`} />
-      </div>
+          <div className="GeologyCollage">
+            <img className="Pin" src={process.env.PUBLIC_URL + data.images.geology} alt="Geology" />
+            <img className="Planet" src={process.env.PUBLIC_URL + data.images.planet} alt={`Image of ${planetName}`} />
+          </div>
         </>
       ),
        
